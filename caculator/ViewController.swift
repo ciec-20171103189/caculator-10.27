@@ -57,6 +57,7 @@ class ViewController: UIViewController {
     @IBAction func buttondelete(_ sender: Any) {
         result.text = ""
     }
+    
     @IBAction func buttonresult(_ sender: Any) {
         if str == 1 {
             temp = temp + Double (result.text!)!
